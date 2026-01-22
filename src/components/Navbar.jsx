@@ -45,7 +45,7 @@ const Navbar = () => {
                             ))}
                         </div>
 
-                        <div className="h-6 w-px bg-gray-200 dark:bg-gray-700 mx-4"></div>
+                        <div className="h-6 w-px bg-gray-500 dark:text-white mx-4"></div>
 
                         <div className="flex items-center gap-4">
                             <button
