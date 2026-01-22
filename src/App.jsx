@@ -10,7 +10,6 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="min-h-screen font-sans">
-      <div style={{ fontFamily: '"Bricolage Grotesque", sans-serif', opacity: 0, height: 0 }}>Font Test</div>
       <Navbar />
       <main>
         <Hero />
