@@ -4,6 +4,7 @@
 @theme {
     --color-brand-purple: #9800f7;
     --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+    --font-signature: "Brittany Signature", cursive;
 }
 
 @layer base {

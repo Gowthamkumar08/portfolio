@@ -11,7 +11,7 @@ const Contact = () => {
     };
 
     return (
-        <footer id="contact" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 bg-gray-50 dark:bg-gray-900 pb-8">
+        <footer id="contact" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 bg-gray-50 dark:bg-gray-900 pb-8">
             <div className="max-w-2xl mx-auto text-center space-y-12">
                 <div className="space-y-4">
                     <div className="inline-block px-4 py-1.5 rounded-full bg-gray-200 dark:bg-gray-800 text-base font-semibold uppercase tracking-wider text-gray-900 dark:text-white mb-4">

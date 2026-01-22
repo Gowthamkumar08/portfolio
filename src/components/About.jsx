@@ -6,13 +6,18 @@ const About = () => {
     const { summary } = portfolioData.personalInfo;
 
     return (
-        <section id="about" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 pt-0">
-            <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-8 md:p-12">
+        <section id="about" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 pt-0">
+            <div className="bg-purple-100 dark:bg-purple-900/30 rounded-2xl p-8 md:p-12">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
 
                     {/* Left Image/Card */}
-                    <div className="relative aspect-square md:aspect-[4/3] rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700">
-                        <img src={aboutImg} className="w-full h-full object-cover" alt="About me" />
+                    <div className="space-y-4">
+                        <div className="relative aspect-square md:aspect-[4/3] rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <img src={aboutImg} className="w-full h-full object-cover" alt="About me" />
+                        </div>
+                        <div className="text-center pt-4">
+                            <p className="font-signature text-3xl md:text-4xl text-brand-purple">Gowtham Kumar B</p>
+                        </div>
                     </div>
 
                     {/* Right Content */}

@@ -10,7 +10,7 @@ const Hero = () => {
     const firstName = name.split(' ')[0];
 
     return (
-        <section className="max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 py-16 md:py-24 pt-8 md:pt-16 pb-16 md:pb-24">
+        <section className="max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 py-12 md:py-16 pt-6 md:pt-12 pb-12 md:pb-16">
             <div className="flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-12">
 
                 {/* Left Content */}
