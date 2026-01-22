@@ -55,14 +55,14 @@ const Contact = () => {
                 <div className="space-y-2">
                     <p className="text-gray-600 dark:text-gray-400">You may also find me on these platforms!</p>
                     <div className="flex justify-center gap-4">
-                        <a href={`https://linkedin.com/in/${linkedin}`} className="p-2 text-gray-800 hover:text-gray-900 dark:text-white dark:hover:text-white transition-colors">
+                        <a href={`https://linkedin.com/in/${linkedin}`} className="p-2 text-gray-800 hover:text-gray-900 dark:text-white dark:hover:text-brand-purple transition-colors">
                             <Linkedin size={24} />
                         </a>
                         {/* Placeholders for others */}
-                        <span className="p-2 text-gray-800 hover:text-gray-900 dark:text-white dark:hover:text-white transition-colors">
+                        <span className="p-2 text-gray-800 hover:text-gray-900 dark:text-white dark:hover:text-brand-purple transition-colors">
                             <Github size={24} />
                         </span>
-                        <span className="p-2 text-gray-800 hover:text-gray-900 dark:text-white dark:hover:text-white transition-colors">
+                        <span className="p-2 text-gray-800 hover:text-gray-900 dark:text-white dark:hover:text-brand-purple transition-colors">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
                             </svg>
