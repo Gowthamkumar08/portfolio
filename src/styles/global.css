@@ -10,6 +10,9 @@
     html,
     body {
         font-family: "Bricolage Grotesque", var(--font-sans) !important;
+    }
+
+    body {
         background-color: #f6effd;
         /* light purple */
         color: #000000;
@@ -19,6 +22,7 @@
         transition-duration: 300ms;
     }
 
+    :where(.dark, .dark *) body,
     .dark body {
         background-color: #110b18;
         /* deep purple */
