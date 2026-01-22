@@ -28,26 +28,26 @@ const About = () => {
                         <div className="space-y-4 text-gray-900 dark:text-gray-100 leading-relaxed">
                             <p>{summary}</p>
                             <p>
-                                I started my journey as a student fascinated by data, and now I'm analyzing complex datasets to drive business growth.
-                                I'm passionate about visualization, storytelling with data, and continuous learning.
+                                I’m a results-driven Digital Marketing Analyst with hands-on experience managing and optimizing paid campaigns across Google Ads, Meta Ads, and Amazon Ads, focused on improving ROAS/ROI, conversion rates, and lead quality.
+                                I specialize in data-driven optimization, using KPIs like CPC, CTR, CPA, CVR, and ROAS along with A/B testing, audience segmentation, and funnel analysis to scale performance and reduce wasted spend.
                             </p>
                             <p>
-                                When I'm not crunching numbers, you can find me exploring new places, reading about market trends, or refining my design skills.
+                                I turn campaign data into clear insights through GA4, conversion tracking, keyword research, and performance reporting, helping businesses make smarter decisions and drive consistent growth.
                             </p>
                         </div>
 
                         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-4">
                             <li className="flex items-center gap-2 text-gray-700 dark:text-gray-200 before:w-1.5 before:h-1.5 before:rounded-full before:bg-gray-400">
-                                Detailed Analysis
+                                Data-Driven Marketing Analyst
                             </li>
                             <li className="flex items-center gap-2 text-gray-700 dark:text-gray-200 before:w-1.5 before:h-1.5 before:rounded-full before:bg-gray-400">
-                                Strategic Planning
+                                Performance Marketing Specialist
                             </li>
                             <li className="flex items-center gap-2 text-gray-700 dark:text-gray-200 before:w-1.5 before:h-1.5 before:rounded-full before:bg-gray-400">
-                                Data Visualization
+                                Paid Media Optimization Expert
                             </li>
                             <li className="flex items-center gap-2 text-gray-700 dark:text-gray-200 before:w-1.5 before:h-1.5 before:rounded-full before:bg-gray-400">
-                                Problem Solving
+                                Growth & Analytics Strategist
                             </li>
                         </ul>
                     </div>

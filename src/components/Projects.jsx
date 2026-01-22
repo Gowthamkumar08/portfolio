@@ -26,7 +26,7 @@ const Projects = () => {
         <section id="projects" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
             <div className="mb-12 text-center">
                 <div className="inline-block px-4 py-1.5 rounded-full bg-purple-100 dark:bg-purple-900/30 text-base font-semibold uppercase tracking-wider text-purple-900 dark:text-purple-100 mb-4">
-                    Work
+                    Projects
                 </div>
                 <p className="text-xl text-gray-800 dark:text-gray-200">
                     Some of the noteworthy projects I have built:

@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0 font-bold text-2xl tracking-tight text-gray-900 dark:text-white">
-                        {'<'}<span className="text-brand-purple">Gowtham</span>{' />'}
+                        <span className="text-brand-purple">Portfolio</span>
                     </div>
 
                     <div className="hidden md:flex items-center space-x-8">
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <a
                                     key={link.name}
                                     href={link.href}
-                                    className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium text-sm"
+                                    className="text-gray-900 dark:text-gray-100 hover:text-gray-500 dark:hover:text-white transition-colors font-medium text-sm"
                                 >
                                     {link.name}
                                 </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
                         <div className="flex items-center gap-4">
                             <button
                                 onClick={toggleTheme}
-                                className="p-2 rounded-lg text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                                className="p-2 rounded-lg text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
                                 aria-label="Toggle theme"
                             >
                                 {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}

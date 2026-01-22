@@ -1,24 +1,24 @@
 export const portfolioData = {
     personalInfo: {
         name: "Gowtham Kumar B",
-        role: "Business / Data Analyst",
+        role: "Digital Marketing Analyst",
         email: "gowthamkumarbpbt@gmail.com",
         mobile: "+91 9500435392",
         linkedin: "gowthamkumar08",
         location: "Vellore, India",
-        summary: "Enthusiastic Business and Data Analyst with practical experience through academic projects and internships. Proficient in SQL, Excel, Power BI, Tableau, and MySQL, with a strong foundation in data analysis, dashboard creation, and KPI reporting. Eager to leverage data-driven insights to support business decisions, optimize processes, and contribute to organizational growth."
+        summary: "Results-driven Digital Marketing Analyst with expertise in performance marketing, paid media strategy, and data-driven optimization. Hands-on experience managing Google Ads, Meta Ads, and Amazon Ads campaigns to improve ROI/ROAS,conversion rates, and lead quality. Strong analytical skills in campaign reporting, funnel optimization, SEO, keyword research,and Google Analytics (GA4). Proven ability to support scalable growth through continuous A/B testing, audience segmentation, and performance insights."
     },
     education: [
         {
-            institution: "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
+            institution: "Vel Tech Institute of Science and Technology",
             degree: "Master of Business Administration",
             duration: "September 2023 - June 2025",
-            gpa: "8.9",
+            gpa: "8.4",
             location: "Chennai, India"
         },
         {
             institution: "Islamiah College (Autonomous)",
-            degree: "Bachelor of Commerce (Computer Application)",
+            degree: "Bachelor of Business Administration",
             duration: "June 2020 - July 2023",
             gpa: "7.5",
             location: "Vaniyambadi, India"
@@ -32,6 +32,21 @@ export const portfolioData = {
         other: ["Graphic Design (Canva)", "TN Govt. Certified Speed Typing"]
     },
     experience: [
+        {
+            role: "Digital Marketing Analyst",
+            company: "WissenGlanz India Pvt. Ltd",
+            duration: "Sept 2025 - Present",
+            location: "Bengaluru",
+            description: [
+                "Planned, executed, and optimized performance marketing campaigns across Google Ads, Meta Ads, and Amazon Ads to drive conversions and revenue growth.",
+                "Monitored KPIs including ROAS, ROI, CTR, CPC, CPA, CVR, impressions, reach, frequency, and engagement, identifying optimization opportunities to improve efficiency",
+                "Implemented conversion tracking using GA4, Google Tag Manager (GTM), and UTM parameters to improve attribution accuracy and reporting.",
+                "Conducted keyword research, search term analysis, and SEO performance reporting using SEMrush to strengthen targeting and organic visibility",
+                "Built automated Power BI / Advanced Excel dashboards and delivered weekly/monthly KPI reports with actionable insights for stakeholders.",
+                "Performed audience segmentation, funnel analysis, and A/B testing on ad creatives and landing pages to improve lead quality and conversion rate.",
+                "Created marketing creatives using Canva and Amazon Creative Studio (ad creatives, posters, promotional videos) aligned to campaign objectives."
+            ]
+        },
         {
             role: "Business Analyst Intern",
             company: "Chai Waale Trades Pvt. Ltd",

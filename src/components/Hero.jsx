@@ -24,7 +24,7 @@ const Hero = () => {
                     <p className="text-lg text-gray-900 dark:text-gray-100 leading-relaxed max-w-2xl">
                         {summary.split('.')[0] + '.'}
                         <br />
-                        I'm a <span className="font-semibold text-brand-purple italic">{role}</span> with a focus on data-driven decision making.
+                        I'm a <span className="font-semibold text-brand-purple italic">{role}</span> with a focus on data-driven marketing analyst.
                     </p>
 
                     <div className="flex items-center gap-3 pt-4 pb-2">
