@@ -55,7 +55,7 @@ const Contact = () => {
                 <div className="space-y-2">
                     <p className="text-gray-600 dark:text-gray-400">You may also find me on these platforms!</p>
                     <div className="flex justify-center gap-4">
-                        <a href={`https://linkedin.com/in/${linkedin}`} className="p-2 text-gray-800 hover:text-gray-900 dark:hover:text-white transition-colors">
+                        <a href={`https://linkedin.com/in/${linkedin}`} className="p-2 text-gray-800 hover:text-gray-900 dark:text-white dark:hover:text-white transition-colors">
                             <Linkedin size={24} />
                         </a>
                         {/* Placeholders for others */}
