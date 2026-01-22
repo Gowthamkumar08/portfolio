@@ -1,14 +1,15 @@
 @import "tailwindcss";
-@variant dark (&:where(.dark, .dark *));
 
 @theme {
     --color-brand-purple: #9800f7;
-    --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
+
+    html,
     body {
-        font-family: var(--font-sans);
+        font-family: "Bricolage Grotesque", var(--font-sans) !important;
         background-color: #f6effd;
         /* light purple */
         color: #000000;
